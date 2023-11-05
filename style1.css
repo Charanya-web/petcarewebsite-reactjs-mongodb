@@ -1,0 +1,99 @@
+/* Basic styling for the chatbot container */
+/* Center-align the entire chatbox */
+.page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; /* This centers it vertically on the viewport */
+}
+
+/* Styling for the chat container */
+.chat-container {
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+/* Rest of your existing CSS styles for chat components (chat, message, user, chatbot, input, button) */
+/* Styling for the chat message container */
+.chat {
+    max-height: 300px;
+    overflow-y: scroll;
+    padding: 10px;
+    background-color: #f7f7f7;
+}
+
+/* Styling for individual chat messages */
+.message {
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Styling for user messages */
+.user {
+    background-color: #0074d9;
+    color: #fff;
+    text-align: right;
+}
+
+/* Styling for chatbot messages */
+.chatbot {
+    background-color: #f0f0f0;
+}
+
+/* Styling for the input container */
+.input-container {
+    display: flex;
+    padding: 10px;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+}
+
+/* Styling for the user input field */
+input[type="text"] {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Styling for the send button */
+button {
+    padding: 5px 15px;
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Hover effect for the send button */
+button:hover {
+    background-color: #0056b3;
+}
+
+body {
+    background-color: #f0f0f0; /* You can replace this with your preferred color */
+}
+
+/* Adjust the size of the user-input text field */
+.user-input {
+    width: 80%; /* You can adjust the width percentage as per your preference */
+    height: 40px; /* You can adjust the height as per your preference */
+    font-size: 16px; /* You can adjust the font size as per your preference */
+    padding: 10px; /* You can adjust the padding as per your preference */
+}
+
+/* Center the heading text inside the header */
+header {
+    text-align: center;
+}
+
+/* Style the heading */
+header h1 {
+    margin: 0; /* Remove default margin */
+}
